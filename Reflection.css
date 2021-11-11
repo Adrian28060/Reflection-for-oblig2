@@ -1,0 +1,52 @@
+*{
+    background-color: aquamarine;
+}
+@media all and (min-width: 1001px) {
+    h1{
+        font-size: xx-large;
+  text-align: center;
+  color: rgb(31, 12, 85);
+    }
+    }
+    
+    @media all and (max-width: 1000px) and (min-width: 700px) {
+      h1{
+          font-size: x-large;
+          text-align: center;
+          color: rgb(31, 12, 85);
+            }
+      }
+    
+    @media all and (max-width: 699px){
+      h1{
+          font-size: larger;
+          text-align: center;
+          color: rgb(31, 12, 85);
+            }
+      }
+  @media all and (min-width: 1001px) {
+          p{
+        line-height: 1,5px;
+        font-size: larger;
+        text-align: center;
+        color: rgb(31, 12, 85);
+          }
+          }
+          
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+            p{
+                line-height: 1,5px;
+                font-size: large;
+                text-align: center;
+                color: rgb(31, 12, 85);
+                  }
+            }
+          
+   @media all and (max-width: 699px){
+            p{
+                line-height: 1,5px;
+                font-size: medium;
+                text-align: center;
+                color: rgb(31, 12, 85);
+                  }
+            }
